@@ -74,13 +74,20 @@ const TOOLS = [
 
 const today = () => new Date().toISOString().slice(0, 10);
 const num = (v) => (typeof v === "number" && Number.isFinite(v) ? v : null);
-const perM = (s) => {
-  const n = Number(s);
-  return Number.isFinite(n) && n >= 0 ? +(n * 1e6).toFixed(4) : null;
+// السعر المفقود (null/undefined/"") يعني "غير معروف" لا صفرًا:
+// Number(null) === 0 في JavaScript، وهذا كان يصنّف نماذج مجهولة السعر كمجانية.
+const priceVal = (v) => {
+  if (v === null || v === undefined || v === "") return null;
+  const n = Number(v);
+  return Number.isFinite(n) && n >= 0 ? n : null;
+};
+const perM = (v) => {
+  const n = priceVal(v);
+  return n === null ? null : +(n * 1e6).toFixed(4);
 };
 const isFree = (m) =>
   String(m.id).endsWith(":free") ||
-  (Number(m.pricing?.prompt) === 0 && Number(m.pricing?.completion) === 0);
+  (priceVal(m.pricing?.prompt) === 0 && priceVal(m.pricing?.completion) === 0);
 const slim = (m) => ({
   id: m.id,
   name: m.name ?? null,
@@ -203,7 +210,6 @@ async function runCheck(env) {
       }
       for (const id of Object.keys(prev)) if (!snap[id]) diff.removed.push(id);
     }
-    await env.STATE.put("catalog:snapshot", JSON.stringify(snap));
     report = {
       status: "ok",
       generated_at: now,
@@ -219,6 +225,8 @@ async function runCheck(env) {
       },
       quota: await getQuota(env),
     };
+    // تُحفظ اللقطة فقط بعد اكتمال التقرير بنجاح، حتى لا يضيع فرق كتالوج عند فشل متأخر.
+    await env.STATE.put("catalog:snapshot", JSON.stringify(snap));
     await env.STATE.put("report:last_ok_at", now);
   } catch (e) {
     report = {
@@ -412,3 +420,6 @@ export default {
     ctx.waitUntil(runCheck(env));
   },
 };
+
+// تصدير الدوال النقية للاختبارات المحلية (node --test)؛ الـWorker يستخدم الـdefault export فقط.
+export { priceVal, perM, isFree, slim };
