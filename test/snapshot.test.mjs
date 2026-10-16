@@ -1,1 +1,44 @@
-aW1wb3J0IHRlc3QgZnJvbSAibm9kZTp0ZXN0IjsKaW1wb3J0IGFzc2VydCBmcm9tICJub2RlOmFzc2VydC9zdHJpY3QiOwppbXBvcnQgd29ya2VyIGZyb20gIi4uL3NyYy9pbmRleC5qcyI7CmltcG9ydCB7IGRpZmZTbmFwc2hvdHMgfSBmcm9tICIuLi9zcmMvaW5kZXguanMiOwoKLy8gLS0tLS0tLS0tLSBkaWZmU25hcHNob3RzOiDYqti32KjZiti5INin2YTYo9iz2LnYp9ixIC0tLS0tLS0tLS0KCnRlc3QoImRpZmZTbmFwc2hvdHM6INin2K7YqtmE2KfZgSDYp9mE2KrZhtiz2YrZgiDZgdmC2Lcg2YTYpyDZitmP2K3Ys9ioINiq2LrZitmR2LEg2LPYudixIiwgKCkgPT4gewogIGNvbnN0IHByZXYgPSB7ICJhL3giOiBbIjAiLCAiMCIsIDFdIH07CiAgY29uc3Qgc25hcCA9IHsgImEveCI6IFsiMC4wIiwgIjAuMDAiLCAxXSB9OwogIGNvbnN0IGQgPSBkaWZmU25hcHNob3RzKHByZXYsIHNuYXApOwogIGFzc2VydC5kZWVwRXF1YWwoZC5wcmljZV9jaGFuZ2VkLCBbXSk7Cn0pOwoKdGVzdCgiZGlmZlNuYXBzaG90czog2KrYutmK2ZHYsSDYrdmC2YrZgtmKINmB2Yog2KfZhNiz2LnYsSDZitmP2LHYtdmO2K8iLCAoKSA9PiB7CiAgY29uc3QgcHJldiA9IHsgImEveCI6IFsiMCIsICIwIiwgMV0gfTsKICBjb25zdCBzbmFwID0geyAiYS94IjogWyIwLjUiLCAiMCIsIDFdIH07CiAgY29uc3QgZCA9IGRpZmZTbmFwc2hvdHMocHJldiwgc25hcCk7CiAgYXNzZXJ0LmVxdWFsKGQucHJpY2VfY2hhbmdlZC5sZW5ndGgsIDEpOwogIGFzc2VydC5lcXVhbChkLnByaWNlX2NoYW5nZWRbMF0uaWQsICJhL3giKTsKfSk7Cgp0ZXN0KCJkaWZmU25hcHNob3RzOiDYp9mE2YLZitmFINin2YTZhdmB2YLZiNiv2Kkg2KrZj9i52KfZhdmO2YQg2YPZhdis2YfZiNmE2Kkg2YTYpyDZg9i12YHYsSIsICgpID0+IHsKICAvLyBudWxsINmF2YLYp9io2YQgIjAiOiDZhdis2YfZiNmEIOKJoCDYtdmB2LHYjCDZgdmK2Y/Yrdiz2Kgg2KrYutmK2ZHYsdmL2KcgKNij2Ygg2YrZj9iq2LHZgyDZhNmE2YXYsdin2KzYudipKSDZhNinINmK2Y/Yqtis2KfZh9mO2YQKICBjb25zdCBwcmV2ID0geyAiYS94IjogW251bGwsIG51bGwsIDFdIH07CiAgY29uc3Qgc25hcCA9IHsgImEveCI6IFsiMCIsICIwIiwgMV0gfTsKICBjb25zdCBkID0gZGlmZlNuYXBzaG90cyhwcmV2LCBzbmFwKTsKICBhc3NlcnQuZXF1YWwoZC5wcmljZV9jaGFuZ2VkLmxlbmd0aCwgMSk7Cn0pOwoKdGVzdCgiZGlmZlNuYXBzaG90czog2KzYr9mK2K8v2YXYrdiw2YjZgS/Yqtit2YjZkdmEINmE2YTZhdis2KfZhtmK2KkiLCAoKSA9PiB7CiAgY29uc3QgcHJldiA9IHsgImEvb2xkIjogWyIxIiwgIjIiLCAwXSwgImEva2VlcCI6IFsiMCIsICIwIiwgMV0sICJhL3BhaWQiOiBbIjEiLCAiMiIsIDBdIH07CiAgY29uc3Qgc25hcCA9IHsgImEva2VlcCI6IFsiMCIsICIwIiwgMV0sICJhL25ldyI6IFsiMCIsICIwIiwgMV0sICJhL3BhaWQiOiBbIjAiLCAiMCIsIDFdIH07CiAgY29uc3QgZCA9IGRpZmZTbmFwc2hvdHMocHJldiwgc25hcCk7CiAgYXNzZXJ0LmRlZXBFcXVhbChkLm5ldywgWyJhL25ldyJdKTsKICBhc3NlcnQuZGVlcEVxdWFsKGQucmVtb3ZlZCwgWyJhL29sZCJdKTsKICBhc3NlcnQuZGVlcEVxdWFsKGQuYmVjYW1lX2ZyZWUsIFsiYS9wYWlkIl0pOwogIGFzc2VydC5kZWVwRXF1YWwoZC5ub19sb25nZXJfZnJlZSwgW10pOwp9KTsKCnRlc3QoImRpZmZTbmFwc2hvdHM6INio2YTYpyDZhNmC2LfYqSDYs9in2KjZgtipINmK2LnZitivINmB2LHZgtmL2Kcg2YHYp9ix2LrZi9inIiwgKCkgPT4gewogIGNvbnN0IGQgPSBkaWZmU25hcHNob3RzKG51bGwsIHsgImEveCI6IFsiMCIsICIwIiwgMV0gfSk7CiAgYXNzZXJ0LmRlZXBFcXVhbChkLCB7IG5ldzogW10sIHJlbW92ZWQ6IFtdLCBwcmljZV9jaGFuZ2VkOiBbXSwgYmVjYW1lX2ZyZWU6IFtdLCBub19sb25nZXJfZnJlZTogW10gfSk7Cn0pOwo=
+import test from "node:test";
+import assert from "node:assert/strict";
+import worker from "../src/index.js";
+import { diffSnapshots } from "../src/index.js";
+
+// ---------- diffSnapshots: تطبيع الأسعار ----------
+
+test("diffSnapshots: اختلاف التنسيق فقط لا يُحسب تغيّر سعر", () => {
+  const prev = { "a/x": ["0", "0", 1] };
+  const snap = { "a/x": ["0.0", "0.00", 1] };
+  const d = diffSnapshots(prev, snap);
+  assert.deepEqual(d.price_changed, []);
+});
+
+test("diffSnapshots: تغيّر حقيقي في السعر يُرصَد", () => {
+  const prev = { "a/x": ["0", "0", 1] };
+  const snap = { "a/x": ["0.5", "0", 1] };
+  const d = diffSnapshots(prev, snap);
+  assert.equal(d.price_changed.length, 1);
+  assert.equal(d.price_changed[0].id, "a/x");
+});
+
+test("diffSnapshots: القيم المفقودة تُعامَل كمجهولة لا كصفر", () => {
+  // null مقابل "0": مجهول ≠ صفر، فيُحسب تغيّرًا (أو يُترك للمراجعة) لا يُتجاهَل
+  const prev = { "a/x": [null, null, 1] };
+  const snap = { "a/x": ["0", "0", 1] };
+  const d = diffSnapshots(prev, snap);
+  assert.equal(d.price_changed.length, 1);
+});
+
+test("diffSnapshots: جديد/محذوف/تحوّل للمجانية", () => {
+  const prev = { "a/old": ["1", "2", 0], "a/keep": ["0", "0", 1], "a/paid": ["1", "2", 0] };
+  const snap = { "a/keep": ["0", "0", 1], "a/new": ["0", "0", 1], "a/paid": ["0", "0", 1] };
+  const d = diffSnapshots(prev, snap);
+  assert.deepEqual(d.new, ["a/new"]);
+  assert.deepEqual(d.removed, ["a/old"]);
+  assert.deepEqual(d.became_free, ["a/paid"]);
+  assert.deepEqual(d.no_longer_free, []);
+});
+
+test("diffSnapshots: بلا لقطة سابقة يعيد فرقًا فارغًا", () => {
+  const d = diffSnapshots(null, { "a/x": ["0", "0", 1] });
+  assert.deepEqual(d, { new: [], removed: [], price_changed: [], became_free: [], no_longer_free: [] });
+});
