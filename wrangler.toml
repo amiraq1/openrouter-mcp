@@ -1,0 +1,12 @@
+name = "openrouter-mcp"
+main = "src/index.js"
+compatibility_date = "2025-09-01"
+
+# الفحص اليومي 05:17 UTC (نحو 08:17 بغداد)، بعيدًا عن ازدحام منتصف الليل
+[triggers]
+crons = ["17 5 * * *"]
+
+# KV namespace أُنشئ عبر API باسم openrouter-mcp-state (ليس سرًّا)
+[[kv_namespaces]]
+binding = "STATE"
+id = "4500ce4fea2f4ccc887b764f6c05cc67"
